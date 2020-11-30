@@ -31,5 +31,13 @@
             用户年龄：<input type="text" name="user.age"><br/>
             <input type="submit" value="保存">
         </form>
+
+        <h3>请求参数绑定-自定义类型转换</h3>
+        <form action="param/saveUser" method="post">
+            用户名称：<input type="text" name="uname"><br/>
+            用户年龄：<input type="text" name="age"><br/>
+            用户生日：<input type="text" name="date"><br/>
+            <input type="submit" value="保存">
+        </form>
     </body>
 </html>

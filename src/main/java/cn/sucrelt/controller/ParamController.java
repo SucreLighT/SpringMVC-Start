@@ -1,6 +1,7 @@
 package cn.sucrelt.controller;
 
 import cn.sucrelt.domain.Account;
+import cn.sucrelt.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -48,6 +49,18 @@ public class ParamController {
     public String saveUserAccount(Account account) {
         System.out.println("执行了...");
         System.out.println(account);
+        return "success";
+    }
+
+    /**
+     * 请求参数的绑定-自定义类型转换
+     * @param user
+     * @return
+     */
+    @RequestMapping("/saveUser")
+    public String saveUser(User user){
+        System.out.println("执行了...");
+        System.out.println(user);
         return "success";
     }
 }
