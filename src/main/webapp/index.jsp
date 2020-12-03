@@ -16,5 +16,8 @@
 
         <h3>异常处理</h3>
         <a href="hello">异常处理</a>
+
+        <h3>拦截器</h3>
+        <a href="user/testInterceptor">拦截器</a>
     </body>
 </html>

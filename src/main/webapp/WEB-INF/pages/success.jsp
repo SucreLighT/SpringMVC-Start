@@ -12,5 +12,6 @@
     </head>
     <body>
         <h3>入门成功</h3>
+        <% System.out.println("success.jsp！");%>
     </body>
 </html>
