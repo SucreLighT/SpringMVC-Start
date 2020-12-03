@@ -13,5 +13,8 @@
     <body>
         <h3>入门程序</h3>
         <a href="hello">入门程序</a>
+
+        <h3>异常处理</h3>
+        <a href="hello">异常处理</a>
     </body>
 </html>
